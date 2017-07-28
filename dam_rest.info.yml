@@ -1,0 +1,6 @@
+name: REST API
+type: module
+description: 'Provides REST API for DAM.'
+package: DAM
+
+core: '8.x'

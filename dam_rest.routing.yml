@@ -1,0 +1,17 @@
+dam_rest.api.uploadfile:
+  path: '/api/file'
+  methods: [POST]
+  defaults:
+      _title: 'Upload file'
+      _controller: '\Drupal\dam_rest\Controller\DamRestController::uploadFile'
+  requirements:
+      _permission: 'access content'
+
+dam_rest.api.searchfile:
+  path: '/api/file'
+  methods: [GET]
+  defaults:
+      _title: 'Search file'
+      _controller: '\Drupal\dam_rest\Controller\DamRestController::searchFile'
+  requirements:
+      _permission: 'access content'
